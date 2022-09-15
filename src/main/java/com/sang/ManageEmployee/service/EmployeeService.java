@@ -9,4 +9,7 @@ import com.sang.ManageEmployee.model.Employee;
 
 public interface EmployeeService{
 	public List<Employee> getAllEmployee();
+	
+	public Employee createEmployee(Employee em);
+	
 }

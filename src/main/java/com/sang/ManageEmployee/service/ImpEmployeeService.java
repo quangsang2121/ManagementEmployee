@@ -19,4 +19,13 @@ public class ImpEmployeeService implements EmployeeService{
 		return employeeRepository.findAll();
 	}
 
+	@Override
+	public Employee createEmployee(Employee em) {
+		// TODO Auto-generated method stub
+		
+		return employeeRepository.save(em);
+	}
+	
+	
+
 }
